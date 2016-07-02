@@ -19,4 +19,7 @@
     <string name="fh_ashes_title">Ashes</string>
     <string name="fh_ashes_summary">Light your weed here🚬</string>
 
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
 </resources>
