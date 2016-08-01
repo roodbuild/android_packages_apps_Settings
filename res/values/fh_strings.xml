@@ -103,4 +103,7 @@
     <!-- Density category -->
     <string name="density_category">Density options</string>
 
+    <!-- Expose Phone Info -->
+    <string name="device_info_title">Phone info</string>
+
 </resources>
