@@ -3008,7 +3008,7 @@
         <activity android:name=".Settings$SystemDashboardActivity"
                   android:label="@string/header_category_system"
                   android:icon="@drawable/ic_settings_about">
-            <intent-filter android:priority="-2">
+            <intent-filter android:priority="-1">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
@@ -3023,7 +3023,7 @@
                   android:label="@string/page_tab_title_support"
                   android:icon="@drawable/ic_help"
                   android:enabled="@bool/config_support_enabled">
-            <intent-filter android:priority="-3">
+            <intent-filter android:priority="-2">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
@@ -3117,8 +3117,8 @@
         <!-- Begin FireHound custom manifest -->
         <activity android:name="Settings$FhAshes"
                   android:label="@string/fh_ashes_title"
-                <!-- android:icon="@drawable/"> -->
-            <intent-filter android:priority="-1">
+                  android:icon="@drawable/ic_fh_ashes"> 
+            <intent-filter android:priority="8">
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"

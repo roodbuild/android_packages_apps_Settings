@@ -39,10 +39,10 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     settings-logtags
 
 LOCAL_STATIC_JAVA_LIBRARIES += \
-+    android-support-v7-cardview \
-+    android-support-design
-+
-+LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
+    android-support-v7-cardview \
+    android-support-design
+
+LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/design/res \
     frameworks/support/v7/preference/res \
     frameworks/support/v7/appcompat/res \
