@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- FireHound Settings -->
-    <string name="fh_ashes_title"></string>
-    <string name="fh_ashes_summary"></string>
+    <string name="fh_ashes_title">Ashes</string>
+    <string name="fh_ashes_summary">Light your weed here🚬</string>
 
 </resources>
