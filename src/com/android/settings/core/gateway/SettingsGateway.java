@@ -127,8 +127,7 @@ import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
-import com.fh.settings.FhSettings;
-import com.fh.settings.FhSettingsLayout;
+import com.fh.settings.FhAshes;
 
 public class SettingsGateway {
 
@@ -247,8 +246,7 @@ public class SettingsGateway {
             EnterprisePrivacySettings.class.getName(),
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
-            FhSettings.class.getName(),
-            FhSettingsLayout.class.getName(),
+            FhAshes.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -288,6 +286,6 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             // Home page > Ashes
-            Settings.FhAshes.class.getName(),
+            Settings.FhAshesActivity.class.getName(),
     };
 }
