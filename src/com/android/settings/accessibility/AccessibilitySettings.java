@@ -668,8 +668,29 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
         final Resources res = getContext().getResources();
         final String[] entries = res.getStringArray(R.array.entries_font_size);
         final String[] strEntryValues = res.getStringArray(R.array.entryvalues_font_size);
-        final int index = ToggleFontSizePreferenceFragment.fontSizeValueToIndex(currentScale,
+        int index = ToggleFontSizePreferenceFragment.fontSizeValueToIndex(currentScale,
                 strEntryValues);
+        switch(index) {
+                case 0:
+                case 1:
+                        index = 0;
+                        break;
+                case 2:
+                case 3:
+                case 4:
+                        index = 1;
+                        break;
+                case 5:
+                case 6:
+                case 7:
+                        index = 2;
+                        break;
+                case 8:
+                case 9:
+                case 10:
+                        index = 3;
+                        break;
+        }
         pref.setSummary(entries[index]);
     }
 
