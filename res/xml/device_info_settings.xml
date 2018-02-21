@@ -18,6 +18,10 @@
         xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
         android:title="@string/about_settings">
 
+        <!-- Animated Logo -->
+	<PreferenceScreen android:key="fh_logo"
+		android:layout="@layout/fh_logo_row" />
+  
         <!-- ROM Version -->
         <Preference
                 android:key="modversion"
