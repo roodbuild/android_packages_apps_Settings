@@ -39,7 +39,8 @@ LOCAL_JAVA_LIBRARIES := \
 LOCAL_STATIC_JAVA_LIBRARIES := \
     jsr305 \
     settings-logtags \
-    org.lineageos.platform.internal
+    org.lineageos.platform.internal \
+    glide
 
 LOCAL_STATIC_JAVA_LIBRARIES += \
     android-support-v7-cardview \
